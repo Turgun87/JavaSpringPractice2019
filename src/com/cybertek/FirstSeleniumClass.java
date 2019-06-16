@@ -6,9 +6,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FirstSeleniumClass {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\tamirov\\Documents\\Selenium dependencies\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\tamirov\\Documents\\Selenium dependencies\\Drivers\\geckodriver.exe");
 
-        WebDriver driver= new ChromeDriver();
+        WebDriver driver= new FirefoxDriver();
 
         driver.get("https://google.com");
     }
